@@ -5,7 +5,7 @@ variable "project_name" {
 
 variable "environment" {
   type    = string
-  default = "dev"
+  default = "prod"
 }
 
 variable "tags" {
@@ -16,7 +16,7 @@ variable "tags" {
 variable "common_tags" {
   default = {
     Project     = "roboshop"
-    Enviornment = "dev"
+    Enviornment = "prod"
     Terraform   = "true"
   }
 }
