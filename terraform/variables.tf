@@ -10,7 +10,7 @@ variable "environment" {
 
 variable "tags" {
   default = {
-    Component = "catalogue"
+    Component = "user"
   }
 }
 variable "common_tags" {
